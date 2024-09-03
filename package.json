@@ -1,0 +1,24 @@
+{
+  "name": "calculatorjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "compilerOptions":
+  {
+    "target": "es2018",
+    "module": "es2020",
+    "outDir": "dist",
+    "sourceMap": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "strict": true
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules"]
+}
